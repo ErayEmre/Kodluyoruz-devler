@@ -1,8 +1,8 @@
-SELECT country FROM country WHERE country LIKE 'A%a';--1.sorunun cevabı
+SELECT country FROM country WHERE country LIKE 'A%a';--1.sorunun cevabÃ½
 
-SELECT country FROM country WHERE country LIKE '-----n';--2.sorunun cevabı
+SELECT country FROM country WHERE country LIKE '-----n';--2.sorunun cevabÃ½
 
-SELECT title FROM film WHERE title ILIKE '%TTTT';--3.sorunun cevabı
+SELECT title FROM film WHERE title ILIKE '%T%T%T%T';--3.sorunun cevabÃ½
 
-SELECT title FROM film WHERE (title LIKE 'C%') AND (length > 90 AND rental_rate = 2.99);--4.sorunun cevabı
+SELECT title FROM film WHERE (title LIKE 'C%') AND (length > 90 AND rental_rate = 2.99);--4.sorunun cevabÃ½
 
